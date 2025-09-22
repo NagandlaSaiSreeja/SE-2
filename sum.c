@@ -10,3 +10,13 @@ int sumFirst10()
     }
     return sum;
 }
+int main()
+{
+    int number;
+    scanf("%d", &number);
+    // Calculate sum of first 10 natural numbers
+    int sum = sumFirst10();
+    printf("Sum of first 10 natural numbers = %d\n", sum);
+
+    return 0;
+}
